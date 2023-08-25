@@ -1,0 +1,79 @@
+
+div#box{width:99%; height:20%; margin-top: 1%; }
+
+
+
+div#song{
+    width:100%;
+    height: 100%;
+    margin-bottom: 3px;
+    display: flex;
+    
+}
+ 
+
+
+
+div#song div#img{width:15%; height: 80%; }
+div#song div#songname{ width:90%; height: 98%;background-color: black; color:rgb(141, 138, 138)   }
+div#song div#songname p{ white-space: nowrap; overflow-x: hidden; text-overflow: ellipsis; margin:0px; margin-top: 2%; margin-left: 4%; font-family: calibri; font-size: larger;}
+div#song div#songname b{ margin:0px; margin-top: 2%; margin-left: 4%; font-family: calibri; color:white}
+div#song div#songname span{background-color: rgb(179, 174, 174); font-size:small; color:black; padding-top:0; padding-left:0.4em; padding-right: 0.5em; font-family:Calibri; border-radius: 3px; font-size: medium;}
+div#song div#playinganim{
+    width:30%;
+    height:95%;
+}
+
+
+
+
+div#song div#btn{
+    width:15%;
+    height: 98%;
+    text-align: center;
+    background-color:black ;
+
+}
+
+div#btn svg{
+    font-size: 20px;
+    margin-top: 30%;
+    color: rgb(145, 140, 140);
+    
+}
+
+
+div#box div#pop{
+      padding:0.5em;
+      
+      width:15%;
+      height: 90%;
+
+      background-color: rgb(179, 174, 174);
+      position: relative;
+      top:-70%;
+      left:75%;
+      border-radius: 5px;
+    
+      
+    }
+
+
+    div#pop ul{
+        margin: 0;
+        font-family: calibri;
+        
+    }
+
+    div#pop ul li{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 0.8em;
+    }
+    div#pop ul li:hover{
+        background-color: darkgray;
+    }
+    div#pop ul li span{
+        margin-right: 5em;
+    }

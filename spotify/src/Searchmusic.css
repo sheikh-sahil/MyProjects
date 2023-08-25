@@ -1,0 +1,35 @@
+div#search{ width:95%; height: 10vh;  background-color: black; margin-left: 0; display: flex; border-bottom: 2px solid rgb(0, 83, 0); border-radius: 1%;}
+
+div#search input{width:78%; height: 50%; margin-top: 1%; margin-left: 2%; border: 0; background-color:rgb(15, 12, 12); color:white;}
+
+div#search input::placeholder{font-family: calibri; font-size:15px; padding-left: 2%; padding-top: 0; color:rgb(156, 153, 153) }
+
+svg#i{font-size: 20px; margin-right: 2%; margin-top: 1.5%; color: gray;}
+
+div#search svg:nth-child(3){  font-size:25px; color: gray; margin-left: 2%; margin-top: 1.5%; }
+
+
+
+
+
+div#search button{ 
+    width:10%;
+    height: 40%;
+    border:0;
+    background-color: rgb(0, 83, 0);
+    color:rgb(255, 255, 255);
+    font-size:small;
+    font-weight: bold;
+    font-family: Lucida Sans Unicode;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    border-radius: 5px;
+        
+ }
+
+ div#search button#signout{
+    margin-left: 0%;
+    margin-top: 1.5%;
+ }
+
+ div#search span#vcbobtn{color:gray; margin:2%}
